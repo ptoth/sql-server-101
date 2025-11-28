@@ -20,6 +20,7 @@
 #### C) **Csoportosítás (GROUP BY, HAVING)**
 
 * Aggregáló függvények: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
+* Csoportosítás: `GROUP BY`
 * Szűrés aggregált értékekre: `HAVING`
 
 #### Gyakorlat:

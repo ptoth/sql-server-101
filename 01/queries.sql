@@ -59,3 +59,11 @@ FROM [WideWorldImporters].[Sales].[Invoices]
 WHERE
     CustomerID IN (575, 910, 811); -- csak numerikus értékekre működik
 
+-- Nevesített értékek használata:
+SELECT [ProductID] AS 'Termék azonosító'
+      ,[Name] AS Név
+      ,[StandardCost]
+      ,[ListPrice]
+      ,[DaysToManufacture] + 7 AS 'Várható Gyártási idő'
+  FROM [AdventureWorks2022].[Production].[Product]
+
